@@ -7,6 +7,11 @@
     "default_icon": "icon.png",
     "default_title": "No So Simple: Saving your sanity"
   },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
   "content_scripts": [
     {
       "matches": ["http://*/*"],
