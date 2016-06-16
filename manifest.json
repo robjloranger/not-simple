@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "name": "Not So Simple",
+  "version": "0.1.0",
+  "description": "Simple Chrome extension utilizing the \"simply\" rule. If a tutorial or article contains the word simply, it probably isn't really for beginners.",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "No So Simple: Saving your sanity"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*"],
+      "css": ["highlightSimply.css"],
+      "js": ["vendor/padolsey/findAndReplaceDOMText.js","highlightSimply.js"],
+      "run_at": "document_end"
+    },
+    {
+      "matches": ["https://*/*"],
+      "css": ["highlightSimply.css"],
+      "js": ["vendor/padolsey/findAndReplaceDOMText.js","highlightSimply.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "permissions": [
+    "activeTab",
+    "notifications"
+  ]
+}
