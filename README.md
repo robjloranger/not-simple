@@ -6,7 +6,7 @@ Basic Chrome extension to search out and highlight the word _simply_ within docu
 Huge Thanks
 -----------
 
-I owe all the real functionality to @padolsey for the awesome [findAndReplaceDOMText](https://github.com/padolsey/findAndReplaceDOMText) source code. Also big thanks to @quincylarson for handing me the oportunity to write my first Chrome extension.
+I owe all the real functionality to [@padolsey](https://github.com/padolsey) for the awesome [findAndReplaceDOMText](https://github.com/padolsey/findAndReplaceDOMText) source code. Also big thanks to [@quincylarson](https://github.com/quincylarson) for handing me the oportunity to write my first Chrome extension.
 
 License
 -------
