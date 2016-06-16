@@ -1,10 +1,10 @@
 chrome.runtime.onMessage.addListener(
-  function(simplys){
+  function(response){
     // check if notifications are supported
     if (!("Notification" in window)){
       console.log("Not So Simple: Chrome Extension\nThis browser does not support notifications.");
     }else{
-      simpleNotifyUser(simplys);
+      simpleNotifyUser(response.simplys);
     }
   }
 );
