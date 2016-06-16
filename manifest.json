@@ -5,10 +5,6 @@
   "description": "Simple Chrome extension utilizing the \"simply\" rule. If a tutorial contains the word simply, it's probably not for beginners.",
   "author": "Rob J Loranger",
   "homepage_url": "https://github.com/robjloranger/not-simple",
-  "browser_action": {
-    "default_icon": "icon.png",
-    "default_title": "No So Simple: Saving your sanity"
-  },
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
